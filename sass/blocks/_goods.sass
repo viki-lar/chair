@@ -1,0 +1,61 @@
+.goods
+  display: flex
+  padding-top: 80px
+  flex-direction: column
+  margin-bottom: 100px
+  &__wrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__title
+    font-style: normal
+    font-weight: 700
+    font-size: 24px
+    line-height: 28px
+    color: $black
+
+  &__img
+    width: 188px
+    margin-right: 45px
+  &__catalog
+    display: grid
+    grid-template-rows: repeat(1)
+    grid-template-columns: repeat(4, 1fr)
+    column-gap: 30px
+
+.item
+  max-width: 255px
+  background-color: $secondary-color
+  padding: 25px
+  display: flex
+  flex-direction: column
+  align-items: center
+  &__img
+    width: 125px
+    margin-bottom: 20px
+  &__title
+    font-weight: 400
+    font-size: 14px
+    line-height: 20px
+    text-align: center
+    color: $text-color
+    margin-bottom: 20px
+  &__price
+    font-weight: 500
+    font-size: 21px
+    line-height: 25px
+    text-align: center
+    letter-spacing: 0.05em
+    color: $black
+    margin-bottom: 20px
+  &__button
+    border: 2px solid $accent-color
+    border-radius: 30px
+    font-weight: 400
+    font-size: 14px
+    line-height: 16px
+    text-align: center
+    letter-spacing: 0.05em
+    padding: 9px 40px
+    background-color: $accent-color
+    color: $secondary-color

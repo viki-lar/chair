@@ -1,0 +1,75 @@
+.header
+  display: flex
+
+.top-line
+  background-color: $background-color
+  display: flex
+  align-items: center
+  padding-top: 17px
+  padding-bottom: 17px
+  text-align: center
+  margin: auto
+
+  &__menu
+    padding-right: 30px
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 16px
+
+.second-line
+  display: flex
+  background-color: $secondary-color
+  padding-top: 20px
+  padding-bottom: 20px
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+
+  &__wrapper
+    display: flex
+    flex-direction: row
+    align-items: center
+
+  &__img
+    width: 80px
+    padding-right: 20px
+  &__title
+    font-style: normal
+    font-weight: 700
+    font-size: 36px
+    line-height: 42px
+    letter-spacing: 0.1em
+    color: $accent-color
+.mobile-menu
+  display: none
+  width: 25px
+  height: 20px
+  align-items: center
+  justify-content: space-between
+  flex-direction: column
+  background-color: $secondary-color
+  border: none
+  cursor: pointer
+  &__line
+    width: 22px
+    height: 3px
+    background-color: $accent-color
+
+.main-menu
+  display: flex
+  background-color: $secondary-color
+  padding-top: 30px
+  padding-bottom: 30px
+  margin: auto
+  justify-content: center
+  align-items: center
+  text-align: center
+
+  &__link
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 19px
+    color: $black
+    padding-right: 40px
